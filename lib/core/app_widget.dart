@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import '../screens/home.dart';
 import '../screens/splash.dart';
+import '../screens/home.dart';
+import '../screens/challenge_screen.dart';
 
 class AppWidget extends StatelessWidget {
   @override
@@ -8,7 +9,7 @@ class AppWidget extends StatelessWidget {
     return MaterialApp(
       title: "DevQuiz",
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: ChallengeScreen(),
     );
   }
 }
