@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:DevQuiz/core/core.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class LevelButton extends StatelessWidget {
+class LevelButtonWidget extends StatelessWidget {
   final String label;
 
-  LevelButton({required this.label})
+  LevelButtonWidget({required this.label})
       : assert(["Fácil", "Médio", "Difícil", "Perito"].contains(label));
 
   final Map config = {

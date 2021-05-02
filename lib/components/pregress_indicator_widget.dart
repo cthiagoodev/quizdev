@@ -1,10 +1,10 @@
 import 'package:DevQuiz/core/core.dart';
 import 'package:flutter/material.dart';
 
-class CustomProgressIndicator extends StatelessWidget {
+class ProgressIndicatorWidget extends StatelessWidget {
   final double value;
 
-  CustomProgressIndicator({required this.value});
+  ProgressIndicatorWidget({required this.value});
 
   @override
   Widget build(BuildContext context) {
